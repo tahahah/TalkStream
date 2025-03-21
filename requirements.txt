@@ -1,0 +1,15 @@
+aiortc
+aiohttp
+python-dotenv
+numpy
+google-generativeai
+fastrtc
+gradio
+uvicorn
+fastapi
+sounddevice
+keyboard
+plyer
+pyperclip
+psutil
+pywin32
