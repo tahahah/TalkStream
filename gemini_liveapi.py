@@ -51,6 +51,7 @@ import io
 import os
 import sys
 import traceback
+import json
 
 import cv2
 import pyaudio
@@ -197,6 +198,21 @@ class AudioLoop:
         cap.release()
 
     def _get_screen(self):
+        # Check if we have a window config file
+        config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "window_config.json")
+        
+        if os.path.exists(config_path):
+            try:
+                with open(config_path, "r") as f:
+                    config = json.loads(f.read())
+                
+                if config.get("type") == "window" and config.get("hwnd"):
+                    # Capture specific window
+                    return self._get_window(config.get("hwnd"))
+            except Exception as e:
+                print(f"Error reading window config: {e}")
+        
+        # Default to full screen capture
         sct = mss.mss()
         monitor = sct.monitors[0]
 
@@ -210,6 +226,58 @@ class AudioLoop:
         img.save(image_io, format="jpeg")
         image_io.seek(0)
 
+        image_bytes = image_io.read()
+        return {"mime_type": mime_type, "data": base64.b64encode(image_bytes).decode()}
+    
+    def _get_window(self, hwnd):
+        """Capture a specific window by its handle"""
+        import win32gui
+        import win32ui
+        import win32con
+        from ctypes import windll
+        
+        # Get window dimensions
+        left, top, right, bottom = win32gui.GetWindowRect(hwnd)
+        width = right - left
+        height = bottom - top
+        
+        # Make sure window is not minimized
+        if width == 0 or height == 0:
+            return self._get_screen()  # Fall back to full screen
+        
+        # Create device context
+        hwnd_dc = win32gui.GetWindowDC(hwnd)
+        mfc_dc = win32ui.CreateDCFromHandle(hwnd_dc)
+        save_dc = mfc_dc.CreateCompatibleDC()
+        
+        # Create bitmap
+        save_bitmap = win32ui.CreateBitmap()
+        save_bitmap.CreateCompatibleBitmap(mfc_dc, width, height)
+        save_dc.SelectObject(save_bitmap)
+        
+        # Copy window contents to bitmap
+        result = windll.user32.PrintWindow(hwnd, save_dc.GetSafeHdc(), 3)
+        
+        # Convert to PIL Image
+        bmpinfo = save_bitmap.GetInfo()
+        bmpstr = save_bitmap.GetBitmapBits(True)
+        img = PIL.Image.frombuffer(
+            'RGB',
+            (bmpinfo['bmWidth'], bmpinfo['bmHeight']),
+            bmpstr, 'raw', 'BGRX', 0, 1)
+        
+        # Clean up
+        win32gui.DeleteObject(save_bitmap.GetHandle())
+        save_dc.DeleteDC()
+        mfc_dc.DeleteDC()
+        win32gui.ReleaseDC(hwnd, hwnd_dc)
+        
+        # Convert to JPEG
+        image_io = io.BytesIO()
+        img.save(image_io, format="jpeg")
+        image_io.seek(0)
+        
+        mime_type = "image/jpeg"
         image_bytes = image_io.read()
         return {"mime_type": mime_type, "data": base64.b64encode(image_bytes).decode()}
 

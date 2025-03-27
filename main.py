@@ -203,11 +203,17 @@ def register_hotkey(hotkey, mode):
     Register a hotkey to toggle TalkStream.
     
     Args:
-        hotkey (str): The hotkey combination to listen for
+        hotkey (str): The hotkey combination to register
         mode (str): The video mode to use when launching
     """
-    keyboard.add_hotkey(hotkey, lambda: toggle_talkstream(mode))
-    print(f"Listening for hotkey: {hotkey} to toggle TalkStream in {mode} mode")
+    def hotkey_callback():
+        toggle_talkstream(mode)
+    
+    try:
+        keyboard.add_hotkey(hotkey, hotkey_callback)
+        print(f"Registered hotkey: {hotkey} for {mode} mode")
+    except Exception as e:
+        print(f"Failed to register hotkey: {e}")
 
 def hide_console_window():
     """Hide the console window on Windows."""
@@ -223,30 +229,15 @@ def hide_console_window():
 def main():
     """Main entry point for the script."""
     parser = argparse.ArgumentParser(description="TalkStream Hotkey Launcher")
-    parser.add_argument(
-        "--hotkey", 
-        type=str, 
-        default=DEFAULT_HOTKEY,
-        help=f"Hotkey combination to toggle TalkStream (default: {DEFAULT_HOTKEY})"
-    )
-    parser.add_argument(
-        "--mode",
-        type=str,
-        default="screen",
-        choices=["camera", "screen", "none"],
-        help="Video mode to use when launching TalkStream (default: screen)"
-    )
-    parser.add_argument(
-        "--hide-console",
-        action="store_true",
-        help="Hide the console window when running"
-    )
-    
+    parser.add_argument("--hotkey", type=str, default=DEFAULT_HOTKEY, 
+                      help=f"Hotkey combination to use (default: {DEFAULT_HOTKEY})")
+    parser.add_argument("--mode", type=str, default="screen", 
+                      choices=["camera", "screen", "window", "none", "audio"],
+                      help="Video mode to use (default: screen)")
     args = parser.parse_args()
     
     # Hide console window if requested
-    if args.hide_console:
-        hide_console_window()
+    hide_console_window()
     
     # Show startup notification
     show_notification(
@@ -258,13 +249,16 @@ def main():
     register_hotkey(args.hotkey, args.mode)
     
     # Keep the script running
-    print("TalkStream Hotkey Launcher is running. Press Ctrl+C to exit.")
+    print(f"TalkStream Hotkey Launcher running...")
+    print(f"Press {args.hotkey} to toggle TalkStream in {args.mode} mode")
+    print("Press Ctrl+C to exit")
+    
     try:
-        # Keep the main thread alive
+        # Keep the script running
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        print("\nExiting TalkStream Hotkey Launcher...")
+        print("Exiting...")
         keyboard.unhook_all()
         
         # Ensure TalkStream is terminated when exiting

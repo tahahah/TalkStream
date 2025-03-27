@@ -13,3 +13,6 @@ plyer
 pyperclip
 psutil
 pywin32
+pillow
+pystray
+mss
