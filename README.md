@@ -15,7 +15,7 @@ TalkStream is a real-time voice and screen sharing application powered by Google
   - Easy selection between sharing modes
   - One-click start/stop functionality
 - **Keyboard hotkeys** for quick access
-- **Clipboard integration** for easy text copying
+- **Clipboard integration** where the model can write things to user's clipboard and the user can paste it anywhere.
 
 ## Requirements
 
