@@ -111,7 +111,7 @@ def copy_to_clipboard(text: str) -> None:
 # TEXT may be passed here.
 CONFIG = types.LiveConnectConfig(
     response_modalities=["AUDIO"],  
-    tools=[copy_to_clipboard],
+    tools=[copy_to_clipboard, types.Tool(code_execution=types.ToolCodeExecution)],
 )
 
 async def handle_tool_call(session, tool_call):
