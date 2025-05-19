@@ -1,0 +1,610 @@
+2025-04-08 00:55:19,430 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-04-08 00:55:19,431 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-04-08 00:55:19,431 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-04-08 00:55:19,435 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-04-08 00:55:19,568 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-04-08 00:55:19,569 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-04-08 00:55:19,569 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-04-08 00:55:19,570 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-04-08 00:55:19,600 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-08 00:55:19,603 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-08 00:55:19,603 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-08 00:55:19,604 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-08 00:55:19,605 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-08 00:55:19,607 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-08 00:55:19,610 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-08 00:55:19,612 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-08 00:55:19,618 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-08 00:55:19,620 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-08 00:55:19,622 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-08 00:55:19,622 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-08 00:55:19,624 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-08 00:55:19,626 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-08 00:55:19,627 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-08 00:55:19,629 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-08 00:55:19,630 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-08 00:55:19,633 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-08 00:55:19,635 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-08 00:55:19,637 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-08 00:55:19,638 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-08 00:55:19,639 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-08 00:55:19,639 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-08 00:55:19,639 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-08 00:55:19,640 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-08 00:55:19,641 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-08 00:55:19,642 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-08 00:55:19,643 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-08 00:55:19,657 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-08 00:55:19,663 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-08 00:55:19,667 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-08 00:55:19,671 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-08 00:55:19,672 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-08 00:55:19,685 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-08 00:55:19,689 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-08 00:55:19,690 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-08 00:55:19,691 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-08 00:55:19,693 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-08 00:55:19,696 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-08 00:55:19,700 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-08 00:55:19,703 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-08 00:55:19,704 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-08 00:55:19,706 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-08 00:55:19,706 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-08 00:55:19,714 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-08 00:55:19,718 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-08 00:55:19,724 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-08 00:55:19,727 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-08 01:11:05,614 - TalkStream - INFO - Tray application stopping, cleaning up...
+2025-04-08 01:11:05,614 - TalkStream - INFO - Tray application stopped
+2025-04-08 01:11:39,134 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-04-08 01:11:39,134 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-04-08 01:11:39,134 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-04-08 01:11:39,138 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-04-08 01:11:39,248 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-04-08 01:11:39,249 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-04-08 01:11:39,249 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-04-08 01:11:39,249 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-04-08 01:11:39,269 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-08 01:11:39,270 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-08 01:11:39,271 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-08 01:11:39,271 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-08 01:11:39,272 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-08 01:11:39,273 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-08 01:11:39,276 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-08 01:11:39,277 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-08 01:11:39,278 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-08 01:11:39,279 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-08 01:11:39,281 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-08 01:11:39,281 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-08 01:11:39,282 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-08 01:11:39,282 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-08 01:11:39,282 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-08 01:11:39,282 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-08 01:11:39,283 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-08 01:11:39,285 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-08 01:11:39,286 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-08 01:11:39,287 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-08 01:11:39,288 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-08 01:11:39,288 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-08 01:11:39,289 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-08 01:11:39,289 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-08 01:11:39,289 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-08 01:11:39,291 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-08 01:11:39,291 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-08 01:11:39,291 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-08 01:11:39,298 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-08 01:11:39,299 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-08 01:11:39,300 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-08 01:11:39,301 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-08 01:11:39,301 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-08 01:11:39,308 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-08 01:11:39,309 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-08 01:11:39,309 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-08 01:11:39,309 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-08 01:11:39,310 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-08 01:11:39,311 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-08 01:11:39,312 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-08 01:11:39,312 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-08 01:11:39,313 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-08 01:11:39,314 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-08 01:11:39,314 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-08 01:11:39,316 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-08 01:11:39,316 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-08 01:11:39,317 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-08 01:11:39,318 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-08 01:11:43,345 - TalkStream - INFO - Toggling TalkStream (none mode)
+2025-04-08 01:11:43,345 - TalkStream - INFO - TalkStream is not running, starting it in none mode
+2025-04-08 01:11:43,346 - TalkStream - INFO - Starting TalkStream in none mode
+2025-04-08 01:11:43,347 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-08 01:11:43,347 - TalkStream - INFO - .env file contains 54 characters
+2025-04-08 01:11:43,347 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-08 01:11:43,347 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode none
+2025-04-08 01:11:44,354 - TalkStream - INFO - Launched TalkStream in none mode (PID: 44152)
+2025-04-08 01:11:45,241 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-08 01:11:45,241 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-08 01:11:51,645 - TalkStream - ERROR - TalkStream error: + Exception Group Traceback (most recent call last):
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 355, in run
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: |     async with (
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: |   File "C:\Python312\Lib\asyncio\taskgroups.py", line 145, in __aexit__
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: |     raise me from None
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: +-+---------------- 1 ----------------
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: | Traceback (most recent call last):
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 323, in receive_audio
+2025-04-08 01:11:51,646 - TalkStream - ERROR - TalkStream error: |     async for response in turn:
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 139, in receive
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |     while result := await self._receive():
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |                     ^^^^^^^^^^^^^^^^^^^^^
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 209, in _receive
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |     raw_response = await self._ws.recv(decode=False)
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\websockets\asyncio\connection.py", line 313, in recv
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: |     raise self.protocol.close_exc from self.recv_exc
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: | websockets.exceptions.ConnectionClosedError: received 1011 (internal error) Internal error encountered.; then sent 1011 (internal error) Internal error encountered.
+2025-04-08 01:11:51,647 - TalkStream - ERROR - TalkStream error: +------------------------------------
+2025-04-08 01:11:57,773 - TalkStream - INFO - Toggling TalkStream (none mode)
+2025-04-08 01:11:57,773 - TalkStream - INFO - TalkStream is running, stopping it
+2025-04-08 01:11:57,808 - TalkStream - INFO - TalkStream output: message >
+2025-04-08 01:12:11,366 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-08 01:12:11,366 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-08 01:12:11,366 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-08 01:12:11,368 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-08 01:12:11,368 - TalkStream - INFO - .env file contains 54 characters
+2025-04-08 01:12:11,368 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-08 01:12:11,369 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-08 01:12:12,376 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 39552)
+2025-04-08 01:12:12,953 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-08 01:12:12,953 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-08 01:12:18,471 - TalkStream - ERROR - TalkStream error: + Exception Group Traceback (most recent call last):
+2025-04-08 01:12:18,471 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 355, in run
+2025-04-08 01:12:18,471 - TalkStream - ERROR - TalkStream error: |     async with (
+2025-04-08 01:12:18,472 - TalkStream - ERROR - TalkStream error: |   File "C:\Python312\Lib\asyncio\taskgroups.py", line 145, in __aexit__
+2025-04-08 01:12:18,472 - TalkStream - ERROR - TalkStream error: |     raise me from None
+2025-04-08 01:12:18,472 - TalkStream - ERROR - TalkStream error: | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-08 01:12:18,472 - TalkStream - ERROR - TalkStream error: +-+---------------- 1 ----------------
+2025-04-08 01:12:18,472 - TalkStream - ERROR - TalkStream error: | Traceback (most recent call last):
+2025-04-08 01:12:18,472 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 323, in receive_audio
+2025-04-08 01:12:18,473 - TalkStream - ERROR - TalkStream error: |     async for response in turn:
+2025-04-08 01:12:18,473 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 139, in receive
+2025-04-08 01:12:18,473 - TalkStream - ERROR - TalkStream error: |     while result := await self._receive():
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: |                     ^^^^^^^^^^^^^^^^^^^^^
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 209, in _receive
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: |     raw_response = await self._ws.recv(decode=False)
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\websockets\asyncio\connection.py", line 313, in recv
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: |     raise self.protocol.close_exc from self.recv_exc
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: | websockets.exceptions.ConnectionClosedError: received 1011 (internal error) Internal error encountered.; then sent 1011 (internal error) Internal error encountered.
+2025-04-08 01:12:18,474 - TalkStream - ERROR - TalkStream error: +------------------------------------
+2025-04-08 01:12:22,723 - TalkStream - INFO - TalkStream output: message >
+2025-04-08 01:24:30,447 - TalkStream - INFO - Tray application stopping, cleaning up...
+2025-04-08 01:24:30,448 - TalkStream - INFO - Tray application stopped
+2025-04-13 09:05:00,984 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-04-13 09:05:00,985 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-04-13 09:05:00,986 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-04-13 09:05:01,001 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-04-13 09:05:01,427 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-04-13 09:05:01,429 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-04-13 09:05:01,429 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-04-13 09:05:01,430 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-04-13 09:05:01,593 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-13 09:05:01,601 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-13 09:05:01,602 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-13 09:05:01,609 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-13 09:05:01,616 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-13 09:05:01,633 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-13 09:05:01,651 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-13 09:05:01,667 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-13 09:05:01,684 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-13 09:05:01,692 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-13 09:05:01,701 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-13 09:05:01,702 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-13 09:05:01,711 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-13 09:05:01,720 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-13 09:05:01,721 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-13 09:05:01,732 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-13 09:05:01,742 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-13 09:05:01,768 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-13 09:05:01,777 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-13 09:05:01,785 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-13 09:05:01,792 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-13 09:05:01,799 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-13 09:05:01,800 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-13 09:05:01,801 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-13 09:05:01,809 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-13 09:05:01,818 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-13 09:05:01,820 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-13 09:05:01,828 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-13 09:05:01,915 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-13 09:05:01,923 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-13 09:05:01,931 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-13 09:05:01,937 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-13 09:05:01,938 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-13 09:05:01,982 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-13 09:05:01,989 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-13 09:05:01,989 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-13 09:05:01,990 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-13 09:05:01,999 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-13 09:05:02,006 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-13 09:05:02,013 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-13 09:05:02,021 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-13 09:05:02,029 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-13 09:05:02,037 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-13 09:05:02,042 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-13 09:05:02,086 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-13 09:05:02,094 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-13 09:05:02,103 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-13 09:05:02,112 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-13 09:05:07,187 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-13 09:05:07,188 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-13 09:05:07,189 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-13 09:05:07,234 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-13 09:05:07,235 - TalkStream - INFO - .env file contains 54 characters
+2025-04-13 09:05:07,235 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-13 09:05:07,236 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-13 09:05:08,260 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 1548)
+2025-04-13 09:05:16,380 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-13 09:05:16,381 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-13 09:05:40,558 - TalkStream - INFO - TalkStream output: message >
+2025-04-13 09:11:04,903 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-04-13 09:11:04,903 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-04-13 09:11:04,904 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-04-13 09:11:04,908 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-04-13 09:11:05,087 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-04-13 09:11:05,088 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-04-13 09:11:05,088 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-04-13 09:11:05,088 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-04-13 09:11:05,120 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-13 09:11:05,122 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-13 09:11:05,122 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-13 09:11:05,123 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-13 09:11:05,126 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-13 09:11:05,128 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-13 09:11:05,133 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-13 09:11:05,134 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-13 09:11:05,137 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-13 09:11:05,138 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-13 09:11:05,141 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-13 09:11:05,141 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-13 09:11:05,142 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-13 09:11:05,143 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-13 09:11:05,143 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-13 09:11:05,144 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-13 09:11:05,145 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-13 09:11:05,149 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-13 09:11:05,151 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-13 09:11:05,153 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-13 09:11:05,154 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-13 09:11:05,155 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-13 09:11:05,156 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-13 09:11:05,156 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-13 09:11:05,157 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-13 09:11:05,159 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-13 09:11:05,159 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-13 09:11:05,161 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-13 09:11:05,178 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-13 09:11:05,179 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-13 09:11:05,181 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-13 09:11:05,182 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-13 09:11:05,182 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-13 09:11:05,193 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-13 09:11:05,194 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-13 09:11:05,194 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-13 09:11:05,194 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-13 09:11:05,195 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-13 09:11:05,196 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-13 09:11:05,197 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-13 09:11:05,198 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-13 09:11:05,199 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-13 09:11:05,200 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-13 09:11:05,200 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-13 09:11:05,203 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-13 09:11:05,205 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-13 09:11:05,206 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-13 09:11:05,208 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-13 09:11:25,597 - TalkStream - INFO - Toggling TalkStream (none mode)
+2025-04-13 09:11:25,597 - TalkStream - INFO - TalkStream is not running, starting it in none mode
+2025-04-13 09:11:25,598 - TalkStream - INFO - Starting TalkStream in none mode
+2025-04-13 09:11:25,600 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-13 09:11:25,600 - TalkStream - INFO - .env file contains 54 characters
+2025-04-13 09:11:25,600 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-13 09:11:25,601 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode none
+2025-04-13 09:11:26,613 - TalkStream - INFO - Launched TalkStream in none mode (PID: 29924)
+2025-04-13 09:11:28,612 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-13 09:11:28,612 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-13 09:11:54,809 - TalkStream - INFO - TalkStream output: message >
+2025-04-13 09:12:07,683 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-13 09:12:07,684 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-13 09:12:07,685 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-13 09:12:07,687 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-13 09:12:07,687 - TalkStream - INFO - .env file contains 54 characters
+2025-04-13 09:12:07,687 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-13 09:12:07,687 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-13 09:12:08,696 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 23632)
+2025-04-13 09:12:09,662 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-13 09:12:09,662 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-13 09:12:32,367 - TalkStream - INFO - TalkStream output: message >
+2025-04-14 23:48:27,929 - TalkStream - INFO - Toggling TalkStream (none mode)
+2025-04-14 23:48:27,937 - TalkStream - INFO - TalkStream is not running, starting it in none mode
+2025-04-14 23:48:27,937 - TalkStream - INFO - Starting TalkStream in none mode
+2025-04-14 23:48:27,945 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-14 23:48:27,946 - TalkStream - INFO - .env file contains 54 characters
+2025-04-14 23:48:27,946 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-14 23:48:27,948 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode none
+2025-04-14 23:48:28,964 - TalkStream - INFO - Launched TalkStream in none mode (PID: 26748)
+2025-04-14 23:48:30,245 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-14 23:48:30,245 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-14 23:56:54,635 - TalkStream - INFO - TalkStream output: message >
+2025-04-14 23:56:59,557 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-14 23:56:59,559 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-14 23:56:59,559 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-14 23:56:59,562 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-14 23:56:59,562 - TalkStream - INFO - .env file contains 54 characters
+2025-04-14 23:56:59,562 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-14 23:56:59,562 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-14 23:57:00,570 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 33008)
+2025-04-14 23:57:00,978 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-14 23:57:00,978 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-15 00:00:52,427 - TalkStream - INFO - TalkStream output: message >
+2025-04-18 21:48:01,039 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-04-18 21:48:01,040 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-04-18 21:48:01,041 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-04-18 21:48:01,053 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-04-18 21:48:01,243 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-04-18 21:48:01,244 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-04-18 21:48:01,244 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-04-18 21:48:01,245 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-04-18 21:48:01,333 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-18 21:48:01,338 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-18 21:48:01,338 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-18 21:48:01,342 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-18 21:48:01,345 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-18 21:48:01,353 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-18 21:48:01,365 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-18 21:48:01,372 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-18 21:48:01,381 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-18 21:48:01,384 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-18 21:48:01,389 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-18 21:48:01,389 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-18 21:48:01,393 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-18 21:48:01,397 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-18 21:48:01,397 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-18 21:48:01,402 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-18 21:48:01,408 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-18 21:48:01,420 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-18 21:48:01,425 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-18 21:48:01,429 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-18 21:48:01,432 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-18 21:48:01,437 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-18 21:48:01,437 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-18 21:48:01,437 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-18 21:48:01,441 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-18 21:48:01,446 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-18 21:48:01,446 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-18 21:48:01,449 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-18 21:48:01,494 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-18 21:48:01,499 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-18 21:48:01,503 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-18 21:48:01,507 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-18 21:48:01,507 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-18 21:48:01,526 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-18 21:48:01,530 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-18 21:48:01,530 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-18 21:48:01,530 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-18 21:48:01,533 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-18 21:48:01,537 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-18 21:48:01,540 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-18 21:48:01,543 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-18 21:48:01,547 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-18 21:48:01,550 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-18 21:48:01,550 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-18 21:48:01,570 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-18 21:48:01,573 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-18 21:48:01,577 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-18 21:48:01,581 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-18 21:49:18,894 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-18 21:49:18,894 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-18 21:49:18,894 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-18 21:49:18,897 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-18 21:49:18,898 - TalkStream - INFO - .env file contains 54 characters
+2025-04-18 21:49:18,898 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-18 21:49:18,898 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-18 21:49:19,906 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 33904)
+2025-04-18 21:49:22,211 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-18 21:49:22,211 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-18 21:53:25,880 - TalkStream - INFO - TalkStream output: message >
+2025-04-18 21:53:41,217 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-18 21:53:41,217 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-18 21:53:41,217 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-18 21:53:41,219 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-18 21:53:41,220 - TalkStream - INFO - .env file contains 54 characters
+2025-04-18 21:53:41,220 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-18 21:53:41,220 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-18 21:53:42,229 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 33284)
+2025-04-18 21:53:43,274 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-18 21:53:43,274 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-18 22:02:32,721 - TalkStream - ERROR - TalkStream error: + Exception Group Traceback (most recent call last):
+2025-04-18 22:02:32,721 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 355, in run
+2025-04-18 22:02:32,722 - TalkStream - ERROR - TalkStream error: |     async with (
+2025-04-18 22:02:32,722 - TalkStream - ERROR - TalkStream error: |   File "C:\Python312\Lib\asyncio\taskgroups.py", line 145, in __aexit__
+2025-04-18 22:02:32,722 - TalkStream - ERROR - TalkStream error: |     raise me from None
+2025-04-18 22:02:32,722 - TalkStream - ERROR - TalkStream error: | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-18 22:02:32,723 - TalkStream - ERROR - TalkStream error: +-+---------------- 1 ----------------
+2025-04-18 22:02:32,723 - TalkStream - ERROR - TalkStream error: | Traceback (most recent call last):
+2025-04-18 22:02:32,723 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 323, in receive_audio
+2025-04-18 22:02:32,723 - TalkStream - ERROR - TalkStream error: |     async for response in turn:
+2025-04-18 22:02:32,724 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 139, in receive
+2025-04-18 22:02:32,724 - TalkStream - ERROR - TalkStream error: |     while result := await self._receive():
+2025-04-18 22:02:32,724 - TalkStream - ERROR - TalkStream error: |                     ^^^^^^^^^^^^^^^^^^^^^
+2025-04-18 22:02:32,724 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 209, in _receive
+2025-04-18 22:02:32,724 - TalkStream - ERROR - TalkStream error: |     raw_response = await self._ws.recv(decode=False)
+2025-04-18 22:02:32,724 - TalkStream - ERROR - TalkStream error: |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-18 22:02:32,725 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\websockets\asyncio\connection.py", line 313, in recv
+2025-04-18 22:02:32,725 - TalkStream - ERROR - TalkStream error: |     raise self.protocol.close_exc from self.recv_exc
+2025-04-18 22:02:32,725 - TalkStream - ERROR - TalkStream error: | websockets.exceptions.ConnectionClosedError: received 1007 (invalid frame payload data) Request contains an invalid argument.; then sent 1007 (invalid frame payload data) Request contains an invalid argument.
+2025-04-18 22:02:32,725 - TalkStream - ERROR - TalkStream error: +------------------------------------
+2025-04-24 12:42:21,916 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-04-24 12:42:21,917 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-04-24 12:42:21,917 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-04-24 12:42:21,925 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-04-24 12:42:22,050 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-04-24 12:42:22,051 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-04-24 12:42:22,051 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-04-24 12:42:22,051 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-04-24 12:42:22,126 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-24 12:42:22,131 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-24 12:42:22,131 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-24 12:42:22,134 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-24 12:42:22,137 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-24 12:42:22,142 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-24 12:42:22,147 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-24 12:42:22,153 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-24 12:42:22,160 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-24 12:42:22,163 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-24 12:42:22,167 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-24 12:42:22,167 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-24 12:42:22,170 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-24 12:42:22,173 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-24 12:42:22,173 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-24 12:42:22,178 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-24 12:42:22,181 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-24 12:42:22,191 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-24 12:42:22,195 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-24 12:42:22,198 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-24 12:42:22,202 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-24 12:42:22,205 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-24 12:42:22,205 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-24 12:42:22,205 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-24 12:42:22,208 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-24 12:42:22,211 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-24 12:42:22,212 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-24 12:42:22,214 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-24 12:42:22,255 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-24 12:42:22,259 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-24 12:42:22,262 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-24 12:42:22,264 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-24 12:42:22,265 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-24 12:42:22,285 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-24 12:42:22,287 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-24 12:42:22,287 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-24 12:42:22,288 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-24 12:42:22,291 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-24 12:42:22,295 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-24 12:42:22,299 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-24 12:42:22,302 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-24 12:42:22,305 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-24 12:42:22,308 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-24 12:42:22,308 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-24 12:42:22,327 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-24 12:42:22,331 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-24 12:42:22,335 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-24 12:42:22,339 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-24 12:42:33,942 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-24 12:42:33,942 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-24 12:42:33,942 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-24 12:42:33,944 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-24 12:42:33,946 - TalkStream - INFO - .env file contains 54 characters
+2025-04-24 12:42:33,946 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-24 12:42:33,946 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-24 12:42:34,954 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 7896)
+2025-04-24 12:42:37,423 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-24 12:42:37,423 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-24 12:51:54,877 - TalkStream - ERROR - TalkStream error: + Exception Group Traceback (most recent call last):
+2025-04-24 12:51:54,877 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 355, in run
+2025-04-24 12:51:54,877 - TalkStream - ERROR - TalkStream error: |     async with (
+2025-04-24 12:51:54,877 - TalkStream - ERROR - TalkStream error: |   File "C:\Python312\Lib\asyncio\taskgroups.py", line 145, in __aexit__
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: |     raise me from None
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: +-+---------------- 1 ----------------
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: | Traceback (most recent call last):
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\gemini_liveapi.py", line 323, in receive_audio
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: |     async for response in turn:
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 139, in receive
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: |     while result := await self._receive():
+2025-04-24 12:51:54,878 - TalkStream - ERROR - TalkStream error: |                     ^^^^^^^^^^^^^^^^^^^^^
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\google\genai\live.py", line 209, in _receive
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: |     raw_response = await self._ws.recv(decode=False)
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: |   File "D:\repos\talkstream\.venv\Lib\site-packages\websockets\asyncio\connection.py", line 313, in recv
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: |     raise self.protocol.close_exc from self.recv_exc
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: | websockets.exceptions.ConnectionClosedError: received 1007 (invalid frame payload data) Request contains an invalid argument.; then sent 1007 (invalid frame payload data) Request contains an invalid argument.
+2025-04-24 12:51:54,879 - TalkStream - ERROR - TalkStream error: +------------------------------------
+2025-04-24 12:52:05,961 - TalkStream - INFO - TalkStream output: message >
+2025-04-24 12:53:18,581 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-04-24 12:53:18,581 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-04-24 12:53:18,581 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-04-24 12:53:18,583 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-04-24 12:53:18,583 - TalkStream - INFO - .env file contains 54 characters
+2025-04-24 12:53:18,584 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-04-24 12:53:18,584 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-04-24 12:53:19,594 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 26284)
+2025-04-24 12:53:20,530 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-04-24 12:53:20,530 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-04-24 12:55:48,530 - TalkStream - INFO - TalkStream output: message >
+2025-05-04 09:45:36,456 - TalkStream - INFO - Logging initialized. Log file: D:\repos\talkstream\tray_app.log
+2025-05-04 09:45:36,457 - TalkStream - INFO - Current working directory: D:\repos\talkstream
+2025-05-04 09:45:36,457 - TalkStream - INFO - Script directory: D:\repos\talkstream
+2025-05-04 09:45:36,467 - TalkStream - INFO - Starting TalkStream Tray Application
+2025-05-04 09:45:36,625 - TalkStream - INFO - Registered hotkey: ctrl+alt+g for screen mode
+2025-05-04 09:45:36,625 - TalkStream - INFO - Registered voice-only hotkey: ctrl+alt+v
+2025-05-04 09:45:36,626 - TalkStream - INFO - Patching PyAudio.open to detect audio activity
+2025-05-04 09:45:36,626 - TalkStream - INFO - Successfully patched PyAudio.open
+2025-05-04 09:45:36,708 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-05-04 09:45:36,713 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-05-04 09:45:36,713 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-05-04 09:45:36,716 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-05-04 09:45:36,719 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-05-04 09:45:36,723 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-05-04 09:45:36,730 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-05-04 09:45:36,736 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-05-04 09:45:36,744 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-05-04 09:45:36,748 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-05-04 09:45:36,753 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-05-04 09:45:36,753 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-05-04 09:45:36,758 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-05-04 09:45:36,761 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-05-04 09:45:36,761 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-05-04 09:45:36,764 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-05-04 09:45:36,768 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-05-04 09:45:36,779 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-05-04 09:45:36,783 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-05-04 09:45:36,786 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-05-04 09:45:36,788 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-05-04 09:45:36,793 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-05-04 09:45:36,793 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-05-04 09:45:36,793 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-05-04 09:45:36,796 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-05-04 09:45:36,801 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-05-04 09:45:36,801 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-05-04 09:45:36,806 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-05-04 09:45:36,846 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-05-04 09:45:36,850 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-05-04 09:45:36,854 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-05-04 09:45:36,856 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-05-04 09:45:36,856 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-05-04 09:45:36,870 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-05-04 09:45:36,872 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-05-04 09:45:36,872 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-05-04 09:45:36,872 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-05-04 09:45:36,874 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-05-04 09:45:36,877 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-05-04 09:45:36,879 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-05-04 09:45:36,883 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-05-04 09:45:36,886 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-05-04 09:45:36,889 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-05-04 09:45:36,889 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-05-04 09:45:36,905 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-05-04 09:45:36,908 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-05-04 09:45:36,911 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-05-04 09:45:36,916 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-05-04 09:45:52,180 - TalkStream - INFO - Toggling TalkStream (screen mode)
+2025-05-04 09:45:52,180 - TalkStream - INFO - TalkStream is not running, starting it in screen mode
+2025-05-04 09:45:52,181 - TalkStream - INFO - Starting TalkStream in screen mode
+2025-05-04 09:45:52,184 - TalkStream - INFO - .env file found at D:\repos\talkstream\.env
+2025-05-04 09:45:52,185 - TalkStream - INFO - .env file contains 54 characters
+2025-05-04 09:45:52,185 - TalkStream - INFO - GEMINI_API_KEY found in .env file
+2025-05-04 09:45:52,185 - TalkStream - DEBUG - Executing command: D:\repos\talkstream\.venv\Scripts\python.exe D:\repos\talkstream\gemini_liveapi.py --mode screen
+2025-05-04 09:45:53,194 - TalkStream - INFO - Launched TalkStream in screen mode (PID: 30968)
+2025-05-04 09:45:55,710 - TalkStream - ERROR - TalkStream error: D:\repos\talkstream\gemini_liveapi.py:356: ExperimentalWarning: The live API is experimental and may change in future versions.
+2025-05-04 09:45:55,711 - TalkStream - ERROR - TalkStream error: client.aio.live.connect(model=MODEL, config=CONFIG) as session,
+2025-05-04 09:47:09,879 - TalkStream - INFO - Tray application stopping, cleaning up...
+2025-05-04 09:47:09,948 - TalkStream - INFO - Tray application stopped
